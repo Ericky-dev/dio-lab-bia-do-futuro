@@ -5,39 +5,56 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Muitas pessoas não sabem qual caminho profissional seguir e não têm acesso a orientação de carreira personalizada, clara e acessível.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente atua de forma proativa conduzindo o usuário por um diagnóstico guiado, adaptando perguntas, antecipando dúvidas e oferecendo planos de ação personalizados, acompanhando a evolução ao longo do tempo.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Estudantes (ensino médio / técnico)
+
+Pessoas em transição de carreira
+
+Profissionais iniciantes
+
+Quem está desempregado
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Orienta
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+Empático
+
+Orientador
+
+Analítico
+
+Comunicativo
+
+Ético
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Acessível , pois Atende pessoas de diferentes níveis de escolaridade,
+facilita o entendimento de quem está confuso ou inseguro,
+Reduz barreiras de linguagem,
+mantém o agente próximo, humano e confiável.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá! Eu sou o Orienta Como posso ajudar hoje?"
+- Confirmação: "Entendi! Deixa eu verificar isso para você."
+- Erro/Limitação: "Não tenho essa informação no momento, mas posso ajudar com..."
 
 ---
 
@@ -47,7 +64,7 @@
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
+    A[Usuário] -->|Mensagem| B[Interface]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C
@@ -59,10 +76,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Streamlit](https://streamlit.io/) |
+| LLM | ollama (local) |
+| Base de Conhecimento | JSON/CSV mockados na pasta `data` |
+
 
 ---
 
@@ -70,12 +87,22 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Conversa Guiada por Etapas
+- [x] Diagnóstico Progressivo
+- [x] Mapeamento de Perfil Profissional
+- [x] Recomendações Contextualizadas
+- [x] Plano de Ação Orientado a Passos
+- [x] Adaptação ao Ritmo do Usuário
+- [x] Reforço Positivo e Clareza
+- [x] Registro e Continuidade
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- O agente não escolhe a carreira
+- Não substitui um orientador humano
+- Não coleta dados sensíveis 
+- Não atua fora do escopo de carreira
+- Não força escolhas ou caminhos
+- Não fornece aconselhamento legal ou financeiro
+- Não faz diagnósticos psicológicos
