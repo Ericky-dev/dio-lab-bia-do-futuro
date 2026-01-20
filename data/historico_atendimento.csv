@@ -1,10 +1,11 @@
 data,canal,tema,resumo,resolvido
-2025-09-15,chat,Orientacao de carreira,Usuario relatou indecisao profissional e iniciou diagnostico guiado,true
-2025-09-22,chat,Perfil profissional,Agente identificou perfil analitico com interesse em tecnologia,true
-2025-10-01,chat,Sugestao de carreiras,Foram sugeridas areas de desenvolvimento e analise de dados,true
-2025-10-12,chat,Plano de estudo,Criacao de plano de estudos com foco em logica e programacao,true
-2025-10-25,chat,Acompanhamento de progresso,Plano ajustado conforme evolucao informada pelo usuario,true
+2025-09-15,chat,Orientacao de carreira,Usuario relatou indecisao profissional e iniciou diagnostico guiado,sim
+2025-09-22,chat,Perfil profissional,Agente identificou perfil analitico com interesse em tecnologia,sim
+2025-10-01,chat,Sugestao de carreiras,Foram sugeridas areas de desenvolvimento e analise de dados,sim
+2025-10-12,chat,Plano de estudo,Criacao de plano de estudos com foco em logica e programacao,sim
+2025-10-25,chat,Acompanhamento de progresso,Plano ajustado conforme evolucao informada pelo usuario,sim
 
   }
 ]
+
 
