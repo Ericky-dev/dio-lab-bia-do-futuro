@@ -1,0 +1,52 @@
+{
+  "nome": "João Silva",
+  "idade": 22,
+  "escolaridade": "Ensino Médio Completo",
+  "situacao_profissional": "Estudante",
+  "area_interesse_principal": "Tecnologia",
+  "interesses": [
+    "Programação",
+    "Lógica",
+    "Resolução de problemas"
+  ],
+  "habilidades": [
+    "Raciocínio lógico",
+    "Organização",
+    "Aprendizado rápido"
+  ],
+  "experiencia_profissional": "Nenhuma",
+  "objetivo_profissional": "Ingressar na área de tecnologia",
+  "nivel_clareza_carreira": "baixo",
+  "disponibilidade_estudo_horas_dia": 2,
+  "preferencia_trabalho": {
+    "ambiente": "remoto",
+    "estilo": "analitico",
+    "interacao_pessoas": "moderada"
+  },
+  "carreiras_sugeridas": [
+    "Desenvolvedor Backend",
+    "Analista de Sistemas",
+    "Analista de Dados",
+    "Front-End"
+  ],
+  "plano_acao": [
+    {
+      "etapa": "Introdução à lógica de programação",
+      "duracao_estimada_meses": 2,
+      "prioridade": "alta"
+    },
+    {
+      "etapa": "Aprender linguagem Java",
+      "duracao_estimada_meses": 4,
+      "prioridade": "alta"
+    },
+    {
+      "etapa": "Construir projetos práticos",
+      "duracao_estimada_meses": 3,
+      "prioridade": "media"
+    }
+  ],
+  "aceita_transicao_carreira": true,
+  "observacoes_agente": "Usuário demonstra afinidade com tecnologia e perfil analítico, indicado para áreas técnicas de desenvolvimento."
+}
+
