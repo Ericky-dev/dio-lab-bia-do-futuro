@@ -1,0 +1,17 @@
+{
+  "usuario_id": "usr_001",
+  "progresso_geral": "moderado",
+  "ultima_atualizacao": "2025-10-25",
+  "registros": [
+    {
+      "data": "2025-10-01",
+      "descricao": "Usuario demonstrou maior clareza sobre interesse em tecnologia",
+      "impacto": "positivo"
+    },
+    {
+      "data": "2025-10-20",
+      "descricao": "Dificuldade em manter rotina de estudos",
+      "impacto": "negativo"
+    }
+  ]
+}
