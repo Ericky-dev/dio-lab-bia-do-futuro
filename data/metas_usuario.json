@@ -1,0 +1,21 @@
+{
+  "usuario_id": "usr_001",
+  "metas": [
+    {
+      "id": "meta_01",
+      "descricao": "Definir area profissional principal",
+      "categoria": "carreira",
+      "prazo": "2025-12",
+      "status": "em_andamento",
+      "prioridade": "alta"
+    },
+    {
+      "id": "meta_02",
+      "descricao": "Concluir curso introdutorio de programacao",
+      "categoria": "educacao",
+      "prazo": "2026-03",
+      "status": "nao_iniciada",
+      "prioridade": "media"
+    }
+  ]
+}
