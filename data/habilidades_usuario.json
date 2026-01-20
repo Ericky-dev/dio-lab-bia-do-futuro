@@ -1,0 +1,23 @@
+{
+  "usuario_id": "usr_001",
+  "habilidades_tecnicas": [
+    {
+      "nome": "Logica de programacao",
+      "nivel": "iniciante"
+    },
+    {
+      "nome": "Uso basico de computador",
+      "nivel": "intermediario"
+    }
+  ],
+  "habilidades_comportamentais": [
+    {
+      "nome": "Organizacao",
+      "nivel": "medio"
+    },
+    {
+      "nome": "Comunicacao",
+      "nivel": "bom"
+    }
+  ]
+}
