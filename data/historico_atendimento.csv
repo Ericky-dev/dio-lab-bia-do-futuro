@@ -1,6 +1,39 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+[
+  {
+    "data": "2025-09-15",
+    "canal": "chat",
+    "tema": "Orientação de carreira",
+    "resumo": "Usuário relatou indecisão profissional e iniciou diagnóstico guiado",
+    "resolvido": true
+  },
+  {
+    "data": "2025-09-22",
+    "canal": "chat",
+    "tema": "Perfil profissional",
+    "resumo": "Agente identificou perfil analítico com interesse em tecnologia",
+    "resolvido": true
+  },
+  {
+    "data": "2025-10-01",
+    "canal": "chat",
+    "tema": "Sugestão de carreiras",
+    "resumo": "Foram sugeridas áreas de desenvolvimento e análise de dados",
+    "resolvido": true
+  },
+  {
+    "data": "2025-10-12",
+    "canal": "chat",
+    "tema": "Plano de estudo",
+    "resumo": "Criação de plano de estudos com foco em lógica e programação",
+    "resolvido": true
+  },
+  {
+    "data": "2025-10-25",
+    "canal": "chat",
+    "tema": "Acompanhamento de progresso",
+    "resumo": "Plano ajustado conforme evolução informada pelo usuário",
+    "resolvido": true
+  }
+]
+
+
