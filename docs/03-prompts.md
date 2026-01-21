@@ -151,5 +151,5 @@ Vamos começar entendendo melhor seu perfil e seus objetivos. Assim consigo te o
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Testado no ChatGpt e no Copilot, obtivemos respostas diferentes porém seguindo as diretrizes criadas no System Prompt.
+
