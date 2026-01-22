@@ -38,25 +38,13 @@ O agente ORIENTA acessa sua base de conhecimento em Python por meio da leitura d
 import pandas as pd
 import json
 
-# JSONs
-def carregar_json(caminho):
-    with open(caminho, "r", encoding="utf-8") as arquivo:
-        return json.load(arquivo)
-
-perfil_usuario = carregar_json("data/perfil_usuario.json")
-metas_usuario = carregar_json("data/metas_usuario.json")
-preferencias_usuario = carregar_json("data/preferencias_usuario.json")
-
-
-# CSVs
-import csv
-
-def carregar_csv(caminho):
-    with open(caminho, newline="", encoding="utf-8") as arquivo:
-        return list(csv.DictReader(arquivo))
-
-historico_atendimentos = carregar_csv("data/historico_atendimentos.csv")
-feedbacks = carregar_csv("data/feedback_usuario.csv")
+perfil = json.load(open('./data/perfil_do_usuario.json'))
+historico = pd.read_csv('./data/historico_atendimento.csv')
+metas = json.load(open('./data.metas_usuario.json'))
+habilidades = json.load(open('./data/habilidades_usuario.json'))
+preferencias = json.load(open('./data/preferencias_usuario.json'))
+progresso = json.load(open('./data/progresso_usuario.json'))
+feedback = pd.read_csv('./data/feedback_usuario.csv')
 
 
 ```
