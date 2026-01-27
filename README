@@ -1,0 +1,135 @@
+# 🤖 ORIENTA — Agente Inteligente de Orientação Profissional e de Carreira
+
+## 📌 Contexto
+
+O **ORIENTA** é um agente inteligente de orientação profissional e de carreira que utiliza **IA Generativa**
+para ajudar usuários a tomarem decisões mais conscientes, seguras e alinhadas com seus objetivos pessoais e profissionais.
+
+Diferente de chatbots reativos, o ORIENTA atua de forma **consultiva**, guiando reflexões, sugerindo caminhos de aprendizado,
+analisando perfis e oferecendo orientações baseadas em contexto, histórico e objetivos do usuário.
+
+---
+
+## 🎯 Objetivo do Agente
+
+Ajudar o usuário a:
+
+* Identificar possíveis caminhos de carreira
+* Avaliar transições profissionais
+* Planejar estudos e desenvolvimento de habilidades
+* Refletir sobre escolhas profissionais com mais clareza
+
+O agente **não substitui um orientador humano**, mas funciona como um apoio inteligente e acessível.
+
+---
+
+## 🧑‍💼 Persona e Tom de Voz
+
+* **Persona:** Orientador profissional experiente, empático e didático
+* **Tom:** Claro, respeitoso, motivador e realista
+* **Postura:** Faz perguntas, provoca reflexão e evita respostas absolutas
+
+---
+
+## 🏗️ Arquitetura Geral
+
+O ORIENTA é composto por:
+
+* **Interface de chat** (ex: Streamlit ou Gradio)
+* **LLM (IA Generativa)** para interpretação e geração de respostas
+* **Base de conhecimento** com informações estruturadas
+* **Camada de regras** para evitar respostas incoerentes ou fora de escopo
+
+Fluxo simplificado:
+
+```
+Usuário → Interface → LLM + Regras → Base de Conhecimento → Resposta
+```
+
+---
+
+## 🛡️ Segurança e Confiabilidade
+
+Para evitar alucinações e respostas inadequadas, o agente:
+
+* Limita respostas ao seu escopo de atuação
+* Usa prompts restritivos e claros
+* Assume incerteza quando necessário
+* Não faz diagnósticos psicológicos ou promessas absolutas
+
+---
+
+## 📚 Base de Conhecimento
+
+Os dados utilizados pelo agente podem incluir:
+
+* Perfis profissionais (mockados)
+* Trilhas de estudo
+* Áreas de atuação e carreiras
+* Habilidades técnicas e comportamentais
+
+📁 Localização: pasta `data/`
+
+---
+
+## 🧠 Prompts do Agente
+
+Os prompts definem:
+
+* Comportamento global do agente (System Prompt)
+* Exemplos de interação
+* Tratamento de casos limites
+
+📄 Documentação detalhada em: `docs/03-prompts.md`
+
+---
+
+## 📊 Avaliação e Métricas
+
+Critérios de avaliação do agente:
+
+* Clareza e coerência das respostas
+* Aderência ao perfil do usuário
+* Consistência ao longo da conversa
+* Ausência de alucinações
+
+📄 Ver detalhes em: `docs/04-metricas.md`
+
+---
+
+## 🚀 Aplicação
+
+O código da aplicação está localizado na pasta `src/`.
+
+📌 **Importante:**
+Dentro da pasta `src/` existe um `README.md` específico explicando:
+
+* Estrutura do código
+* Dependências
+* Como rodar o projeto
+
+---
+
+## 🗂️ Estrutura do Repositório
+
+```
+📁 orienta/
+│
+├── 📄 README.md              # Visão geral do projeto (este arquivo)
+│
+├── 📁 src/                   # Código da aplicação
+│   ├── README.md             # Instruções técnicas de execução
+│   ├── app.py
+│   ├── agente.py
+│   ├── config.py
+│   └── requirements.txt
+│
+├── 📁 data/                  # Base de conhecimento
+├── 📁 docs/                  # Documentação detalhada
+├── 📁 assets/                # Imagens e diagramas
+└── 📁 examples/              # Exemplos e referências
+```
+
+---
+
+
