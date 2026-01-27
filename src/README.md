@@ -1,31 +1,21 @@
-# Código da Aplicação
+# Código do Agente ORIENTA
 
-Esta pasta contém o código do seu agente financeiro.
+Esta pasta contém o código-fonte do agente ORIENTA, responsável pela
+orientação profissional e de carreira do usuário.
 
-## Estrutura Sugerida
+## Estrutura
 
-```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
-```
+├── app.py              # Interface do agente (Streamlit/Gradio)
+├── orienta.py          # Lógica principal do agente
+├── config.py           # Configurações e variáveis de ambiente
+└── requirements.txt    # Dependências do projeto
 
-## Exemplo de requirements.txt
+## Como executar
 
-```
-streamlit
-openai
-python-dotenv
-```
-
-## Como Rodar
-
-```bash
 # Instalar dependências
 pip install -r requirements.txt
 
-# Rodar a aplicação
+# Executar a aplicação
 streamlit run app.py
-```
+
