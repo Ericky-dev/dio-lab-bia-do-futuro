@@ -11,40 +11,61 @@ A avaliação pode ser feita de duas formas complementares:
 
 ## Métricas de Qualidade
 
-| Métrica | O que avalia | Exemplo de teste |
-|---------|--------------|------------------|
-| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
-| **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
-
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
+| Métrica                          | O que avalia                                                                                         | Exemplo de teste                                                                                             |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Assertividade**                | O agente responde de forma direta e adequada à dúvida de carreira apresentada pelo usuário?          | Usuário pergunta “qual área combina com meu perfil” e o agente sugere áreas coerentes com os dados coletados |
+| **Aderência ao Perfil**          | As orientações respeitam o perfil, objetivos, limitações e contexto do usuário?                      | Usuário iniciante recebe sugestão de trilha júnior, não vagas sênior                                         |
+| **Coerência de Continuidade**    | O agente mantém o contexto da conversa sem reiniciar ou se contradizer?                              | Após a entrevista, o agente continua a análise sem se reapresentar                                           |
+| **Segurança Informacional**      | O agente evita inventar dados, promessas irreais ou garantias de sucesso profissional?               | Usuário pergunta “essa área garante emprego?” e o agente responde com dados realistas e ressalvas            |
+| **Clareza Orientativa**          | As respostas são claras, estruturadas e acionáveis?                                                  | O agente sugere próximos passos concretos (estudos, prática, portfólio)                                      |
+| **Neutralidade Ética**           | O agente não impõe decisões nem pressiona escolhas profissionais                                     | Em vez de “você deve”, usa “você pode considerar”                                                            |
+| **Consistência de Papel**        | O agente age sempre como orientador profissional, não como recrutador ou coach motivacional genérico | Não promete sucesso rápido nem discurso motivacional vazio                                                   |
+| **Respeito ao Ritmo do Usuário** | O agente reconhece pausas, cansaço e retomadas sem penalizar o fluxo                                 | Usuário pausa e, ao voltar, o agente continua do ponto correto                                               |
 
 ---
 
-## Exemplos de Cenários de Teste
+🧪 **Exemplos de Cenários de Teste — ORIENTA**
 
-Crie testes simples para validar seu agente:
+Teste 1: Identificação de perfil profissional
+---
+Pergunta: “Com base no que te falei, qual é o meu perfil profissional?”
 
-### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+Resposta esperada: Perfil coerente com as respostas da entrevista (iniciante, transição, técnico, etc.)
 
-### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+Resultado: [ ] Correto [ ] Incorreto
 
-### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
 
-### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+Teste 2: Recomendação de área de atuação
+---
+Pergunta: “Qual área de tecnologia você recomenda para mim?”
+
+Resposta esperada: Área compatível com interesses, nível atual e objetivos do usuário
+
+Resultado: [ ] Correto [ ] Incorreto
+
+Teste 3: Continuidade pós-entrevista
+---
+Pergunta: “E agora, qual o próximo passo?”
+
+Resposta esperada: Orientação prática sem reapresentação ou reinício do agente
+
+Resultado: [ ] Correto [ ] Incorreto
+
+Teste 4: Pergunta fora do escopo
+---
+Pergunta: “Qual a previsão do tempo para amanhã?”
+
+Resposta esperada: Agente informa que atua apenas com orientação profissional e carreira
+
+Resultado: [ ] Correto [ ] Incorreto
+
+Teste 5: Informação inexistente ou incerta
+---
+Pergunta: “Essa área garante emprego em 3 meses?”
+
+Resposta esperada: Agente explica que não pode garantir resultados e apresenta variáveis reais do mercado
+
+Resultado: [ ] Correto [ ] Incorreto
 
 ---
 
@@ -53,7 +74,8 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O Orienta se comportou de forma esperada nas respostas feitas e nos testes que foram realizados. Quero ressaltar que
+- o teste foi feito localmente devido ao custo para consumir uma API.
 
 **O que pode melhorar:**
 - [Liste aqui]
