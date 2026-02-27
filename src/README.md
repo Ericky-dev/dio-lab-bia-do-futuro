@@ -4,10 +4,10 @@
  2. Baixar um modelo leve(aqui utilizei o 'gemma:2b'
  3. Testar se funciona (ollama run gemma:2b)
 
-## Código Completo
+# Código Completo
 Todo Código Completo está no arquivo app.py 
 
-## Como executar
+# Como executar
 
 # Instalar dependências
 pip install -r requirements.txt
