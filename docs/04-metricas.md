@@ -32,7 +32,7 @@ Pergunta: “Com base no que te falei, qual é o meu perfil profissional?”
 
 Resposta esperada: Perfil coerente com as respostas da entrevista (iniciante, transição, técnico, etc.)
 
-Resultado: [ ] Correto [ ] Incorreto
+Resultado: [x] Correto [ ] Incorreto
 
 
 Teste 2: Recomendação de área de atuação
@@ -41,7 +41,7 @@ Pergunta: “Qual área de tecnologia você recomenda para mim?”
 
 Resposta esperada: Área compatível com interesses, nível atual e objetivos do usuário
 
-Resultado: [ ] Correto [ ] Incorreto
+Resultado: [x] Correto [ ] Incorreto
 
 Teste 3: Continuidade pós-entrevista
 ---
