@@ -16,5 +16,5 @@ pip install -r requirements.txt
 ollama serve
 
 # Executar a aplicação
-streamlit run app.py
+streamlit run ./src/app.py
 
