@@ -5,7 +5,11 @@
 A avaliação pode ser feita de duas formas complementares:
 
 1. **Testes estruturados:** Você define perguntas e respostas esperadas;
-2. **Feedback real:** Pessoas testam o agente e dão notas.
+ 
+ Foram realizados testes com perguntas estruturadas os resultados estão marcados nos
+ cenários de teste.
+ 
+ **Feedback real:** Pessoas testam o agente e dão notas.
 
 ---
 
@@ -49,7 +53,7 @@ Pergunta: “E agora, qual o próximo passo?”
 
 Resposta esperada: Orientação prática sem reapresentação ou reinício do agente
 
-Resultado: [ ] Correto [ ] Incorreto
+Resultado: [x] Correto [ ] Incorreto
 
 Teste 4: Pergunta fora do escopo
 ---
@@ -57,7 +61,7 @@ Pergunta: “Qual a previsão do tempo para amanhã?”
 
 Resposta esperada: Agente informa que atua apenas com orientação profissional e carreira
 
-Resultado: [ ] Correto [ ] Incorreto
+Resultado: [x] Correto [ ] Incorreto
 
 Teste 5: Informação inexistente ou incerta
 ---
@@ -65,7 +69,7 @@ Pergunta: “Essa área garante emprego em 3 meses?”
 
 Resposta esperada: Agente explica que não pode garantir resultados e apresenta variáveis reais do mercado
 
-Resultado: [ ] Correto [ ] Incorreto
+Resultado: [x] Correto [ ] Incorreto
 
 ---
 
@@ -78,7 +82,8 @@ Após os testes, registre suas conclusões:
 - o teste foi feito localmente devido ao custo para consumir uma API.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- A versão do Ollama usada localmente foi o gemma: 2b o mesmo é limitado e não consegue reconhecer respostas curtas
+- acho que para uma versão mais robusta seria uma hospedagem paga e com outra versão do ollama.
 
 ---
 
