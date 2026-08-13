@@ -64,7 +64,7 @@ mantém o agente próximo, humano e confiável.
 
 ```mermaid
 flowchart TD
-    A[Usuário] -->|Mensagem| B[Interface]
+    A[Usuário] -->|Mensagem| B["Streamlit (Interface)"]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C
