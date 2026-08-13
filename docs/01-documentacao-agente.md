@@ -76,7 +76,7 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [Streamlit] |
+| Interface | [Streamlit](https://streamlit.io/) |
 | LLM | ollama (local) |
 | Base de Conhecimento | JSON/CSV mockados na pasta `data` |
 
@@ -87,6 +87,7 @@ flowchart TD
 
 ### Estratégias Adotadas
 
+-  Só usa dados fornecidos no contexto
 -  Conversa Guiada por Etapas
 -  Diagnóstico Progressivo
 -  Mapeamento de Perfil Profissional
