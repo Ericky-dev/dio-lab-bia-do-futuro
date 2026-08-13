@@ -87,15 +87,15 @@ flowchart TD
 
 ### Estratégias Adotadas
 
--  Só usa dados fornecidos no contexto
--  Conversa Guiada por Etapas
--  Diagnóstico Progressivo
--  Mapeamento de Perfil Profissional
--  Recomendações Contextualizadas
--  Plano de Ação Orientado a Passos
--  Adaptação ao Ritmo do Usuário
--  Reforço Positivo e Clareza
--  Registro e Continuidade
+- [x] Só usa dados fornecidos no contexto
+- [x] Conversa Guiada por Etapas
+- [x] Diagnóstico Progressivo
+- [x] Mapeamento de Perfil Profissional
+- [x] Recomendações Contextualizadas
+- [x] Plano de Ação Orientado a Passos
+- [x] Adaptação ao Ritmo do Usuário
+- [x] Reforço Positivo e Clareza
+- [x] Registro e Continuidade
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
