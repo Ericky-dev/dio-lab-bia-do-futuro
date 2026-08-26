@@ -1,0 +1,41 @@
+{
+  "area": "Marketing",
+  "profissoes": [
+    {
+      "nome": "Analista de Marketing Digital",
+      "habilidades": [
+        "seo",
+        "tráfego pago",
+        "redes sociais",
+        "google analytics"
+      ]
+    },
+    {
+      "nome": "Copywriter",
+      "habilidades": [
+        "escrita persuasiva",
+        "redação",
+        "storytelling",
+        "marketing de conteúdo"
+      ]
+    },
+    {
+      "nome": "Social Media Manager",
+      "habilidades": [
+        "gestão de redes sociais",
+        "criação de conteúdo",
+        "canva",
+        "métricas de engajamento"
+      ]
+    },
+    {
+      "nome": "Designer Gráfico",
+      "habilidades": [
+        "photoshop",
+        "illustrator",
+        "identidade visual",
+        "design editorial"
+      ]
+    }
+  ]
+}

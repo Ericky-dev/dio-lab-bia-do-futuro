@@ -1,0 +1,9 @@
+
+{
+  "usuario_id": "usr_001",
+  "estilo_aprendizado": "pratico",
+  "formatos_preferidos": ["texto", "exercicios"],
+  "horarios_preferidos": ["noite"],
+  "frequencia_interacao": "semanal",
+  "nivel_detalhamento": "medio"
+}

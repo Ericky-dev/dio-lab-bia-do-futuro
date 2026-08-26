@@ -1,0 +1,41 @@
+{
+  "area": "Administração",
+  "profissoes": [
+    {
+      "nome": "Analista Financeiro",
+      "habilidades": [
+        "fluxo de caixa",
+        "excel",
+        "planejamento orçamentário",
+        "análise de custos"
+      ]
+    },
+    {
+      "nome": "Gerente de Recursos Humanos",
+      "habilidades": [
+        "recrutamento",
+        "gestão de pessoas",
+        "treinamento",
+        "departamento pessoal"
+      ]
+    },
+    {
+      "nome": "Analista de Operações",
+      "habilidades": [
+        "gestão de processos",
+        "logística",
+        "mapeamento de processos",
+        "indicadores de desempenho"
+      ]
+    },
+    {
+      "nome": "Administrador Geral",
+      "habilidades": [
+        "planejamento estratégico",
+        "gestão de equipes",
+        "tomada de decisão",
+        "negociação"
+      ]
+    }
+  ]
+}

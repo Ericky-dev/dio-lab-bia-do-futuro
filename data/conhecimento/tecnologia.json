@@ -1,0 +1,97 @@
+{
+  "area": "Tecnologia",
+
+  "descricao": "Área profissional relacionada ao desenvolvimento, uso, análise e gerenciamento de tecnologias e sistemas.",
+
+  "profissoes": [
+    {
+      "nome": "Desenvolvedor de Software",
+      "descricao": "Profissional responsável por criar, desenvolver, testar e manter sistemas e aplicações.",
+      "habilidades": [
+        "Lógica de programação",
+        "Algoritmos",
+        "Linguagens de programação",
+        "Banco de dados",
+        "Resolução de problemas"
+      ]
+    },
+    {
+      "nome": "Analista de Dados",
+      "descricao": "Profissional que coleta, organiza, analisa e interpreta dados para gerar informações que auxiliem na tomada de decisões.",
+      "habilidades": [
+        "Análise de dados",
+        "Python",
+        "SQL",
+        "Excel",
+        "Visualização de dados",
+        "Raciocínio analítico"
+      ]
+    },
+    {
+      "nome": "Cientista de Dados",
+      "descricao": "Profissional que utiliza estatística, programação e técnicas de aprendizado de máquina para analisar dados e construir modelos.",
+      "habilidades": [
+        "Python",
+        "Estatística",
+        "Machine Learning",
+        "SQL",
+        "Análise de dados"
+      ]
+    },
+    {
+      "nome": "Especialista em Inteligência Artificial",
+      "descricao": "Profissional que trabalha com desenvolvimento e aplicação de soluções baseadas em inteligência artificial.",
+      "habilidades": [
+        "Python",
+        "Inteligência Artificial",
+        "Machine Learning",
+        "Análise de dados",
+        "Lógica de programação"
+      ]
+    },
+    {
+      "nome": "Desenvolvedor Web",
+      "descricao": "Profissional responsável pelo desenvolvimento de aplicações e sistemas para a web.",
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Lógica de programação",
+        "Banco de dados"
+      ]
+    },
+    {
+      "nome": "Desenvolvedor Mobile",
+      "descricao": "Profissional responsável pelo desenvolvimento de aplicações para dispositivos móveis.",
+      "habilidades": [
+        "Lógica de programação",
+        "Desenvolvimento mobile",
+        "APIs",
+        "Banco de dados",
+        "Testes"
+      ]
+    },
+    {
+      "nome": "Analista de Redes",
+      "descricao": "Profissional responsável por configurar, monitorar e manter redes de computadores.",
+      "habilidades": [
+        "Redes de computadores",
+        "Infraestrutura",
+        "Sistemas operacionais",
+        "Segurança de redes",
+        "Resolução de problemas"
+      ]
+    },
+    {
+      "nome": "Analista de Segurança da Informação",
+      "descricao": "Profissional que trabalha na proteção de sistemas, redes e informações contra ameaças digitais.",
+      "habilidades": [
+        "Segurança da informação",
+        "Redes",
+        "Sistemas operacionais",
+        "Análise de riscos",
+        "Monitoramento"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "area": "Saúde",
+  "profissoes": [
+    {
+      "nome": "Enfermeiro",
+      "habilidades": ["triagem", "atendimento ao paciente", "primeiros socorros", "gestão hospitalar"]
+    },
+    {
+      "nome": "Fisioterapeuta",
+      "habilidades": ["reabilitação", "anatomia", "ergonomia", "terapia manual"]
+    },
+    {
+      "nome": "Médico Generalista",
+      "habilidades": ["diagnóstico", "prescrição", "atendimento ao paciente", "medicina preventiva"]
+    },
+    {
+      "nome": "Nutricionista",
+      "habilidades": ["planejamento alimentar", "nutrição clínica", "reeducação alimentar", "avaliacao nutricional"]
+    },
+    {
+      "nome": "Farmacêutico",
+      "habilidades": ["pharmacologia", "dispensação de medicamentos", "controle de estoque", "bioquímica"]
+    }
+  ]
+}
